@@ -1,0 +1,112 @@
+#carouselExampleCaptions {
+    position: relative;
+    .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+       width: 100%;
+       .nav-item {
+            &:hover .dropdown-menu {
+                display: block;
+                border-radius: none;
+                margin: 0;
+                padding: 0;
+                li {
+                    a {
+                        border-bottom: 1px solid #ddd;
+                    }
+                }
+            }
+           .nav-link {
+            color: #fff;
+           }
+       }
+    }
+    .carousel-inner {
+        height: 100vh;
+        .carousel-item {
+            img {
+                height: 100vh;
+            }
+            .carousel-caption {
+                
+                bottom: 11.25rem;
+                a:hover {
+                    background: #000;
+                }
+                .amar_design {
+                   
+                }
+            }
+        }
+    }
+   
+
+}
+.build {
+    .image {
+        .small_img {
+            bottom: -40px;
+            right: -5px;
+           img {
+            border: 5px solid rgba(75, 86, 247, 0.667);
+            border-radius: 50%;
+            background-blend-mode: linear-gradieht (yellow, black);
+           }
+        }
+        .link {
+            a {
+                display: inline-block;
+                position: absolute;
+                bottom: 0;
+                right: -200px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #fff;
+                background: yellow;
+                padding: 15px 15px 15px 100px;
+                z-index: -1;
+               
+            }
+            &:hover {
+                background: #000;
+            }
+            
+            
+        }
+        .body_img1 {
+            img {
+                position: absolute;
+                top: -29px;
+                right: -2px;
+                z-index: -1;
+            }
+        }
+        .body_img2 {
+            img {
+                position: absolute;
+                left: -16px;
+                bottom: -27px;
+                z-index: -1;
+            }
+        }
+
+    }
+}
+.our_features {
+    background-color: #F1F1F1;
+    .card1 {
+
+        .card {
+            transform:  perspective(400) rotateY(-20deg);
+            transition: .4s;
+            &:hover {
+                background-color: yellow;
+                color: #fff;
+            }
+        }
+      
+    }
+  
+}

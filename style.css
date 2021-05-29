@@ -1,0 +1,99 @@
+#carouselExampleCaptions {
+  position: relative;
+}
+
+#carouselExampleCaptions .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+#carouselExampleCaptions .navbar .nav-item:hover .dropdown-menu {
+  display: block;
+  border-radius: none;
+  margin: 0;
+  padding: 0;
+}
+
+#carouselExampleCaptions .navbar .nav-item:hover .dropdown-menu li a {
+  border-bottom: 1px solid #ddd;
+}
+
+#carouselExampleCaptions .navbar .nav-item .nav-link {
+  color: #fff;
+}
+
+#carouselExampleCaptions .carousel-inner {
+  height: 100vh;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item img {
+  height: 100vh;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
+  bottom: 11.25rem;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption a:hover {
+  background: #000;
+}
+
+.build .image .small_img {
+  bottom: -40px;
+  right: -5px;
+}
+
+.build .image .small_img img {
+  border: 5px solid rgba(75, 86, 247, 0.667);
+  border-radius: 50%;
+  background-blend-mode: linear-gradieht yellow, black;
+}
+
+.build .image .link a {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: -200px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  background: yellow;
+  padding: 15px 15px 15px 100px;
+  z-index: -1;
+}
+
+.build .image .link:hover {
+  background: #000;
+}
+
+.build .image .body_img1 img {
+  position: absolute;
+  top: -29px;
+  right: -2px;
+  z-index: -1;
+}
+
+.build .image .body_img2 img {
+  position: absolute;
+  left: -16px;
+  bottom: -27px;
+  z-index: -1;
+}
+
+.our_features {
+  background-color: #F1F1F1;
+}
+
+.our_features .card1 .card {
+  transform: perspective(400) rotateY(-20deg);
+  transition: .4s;
+}
+
+.our_features .card1 .card:hover {
+  background-color: yellow;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
